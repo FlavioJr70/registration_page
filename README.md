@@ -1,1 +1,1 @@
-# registration_page
+registration page with password validation
