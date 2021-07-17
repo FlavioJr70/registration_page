@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+/*inputColor #535E88*/
+
+body{
+    background-color: #272E52;
+}
+input{
+    background-color: #535E88;
+    color: white;
+}
+.SignUp{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.SignUp h1{
+    margin: 6px;
+    color: white;
+}
+#alternativetext{
+    color: #535E88;
+}
+.autentication{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.nomeUsuario{
+    border-radius: 5px;
+    padding: 8px 8px;
+    margin: 6px;
+    border: none;
+}
+.email{
+    border-radius: 5px;
+    padding: 8px 8px;
+    margin: 6px;
+    border: none;
+}
+.senha{
+    border-radius: 5px;
+    padding: 8px 8px;
+    margin: 6px;
+    border: none;
+}
+.senhaConfirm{
+    border-radius: 5px;
+    padding: 8px 8px;
+    margin: 6px;
+    border: none;
+}
+.submitButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+.SignUpbutton{
+    border-radius: 25px;
+    padding: 8px 8px;
+    margin: 6px;
+    border: none;
+    width: 90px;
+    cursor: pointer;
+    background-color: #419877;
+    color: white;
+}
+.SignUpbutton:hover{
+    background-color: white;
+    color: black;
+    transition: 0.6s;
+    transform: translateY(-5px);
+}
+.span{
+    border-radius: 5px;
+    padding: 8px 8px;
+    margin: 6px;
+    border: none;
+}
+@media(
+    max-width: 700px
+){
+    .nomeUsuario,.email,.senha,.senhaConfirm{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
